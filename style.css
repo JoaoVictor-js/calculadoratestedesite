@@ -1,0 +1,19 @@
+body {
+    background-color: #7b7b7b;
+    color: #323232;
+    margin-left: 225px;
+    font-size: 25px;
+}
+
+.botao {
+    background-color: #686868;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+strong {
+    font-size: 20px;
+    color: #f3f3f3;
+    background: #828282;
+}

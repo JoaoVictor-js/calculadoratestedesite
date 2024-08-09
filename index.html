@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Título da página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">CALCULADORA</h1>
+    
+    <strong>Numero:</strong> 
+    <input type="number" class="textnum" id="txtn1"><br>
+    
+    <strong>Numero:</strong> 
+    <input type="number" class="textnum" id="txtn2">
+    
+    <h1>OPERACOES!!</h1> 
+    <input type="button" id="+" class="botao" value="+" onclick="somar()">
+    <input type="button" id="-" class="botao" value="-" onclick="subtrair()">
+    <input type="button" id="*" class="botao" value="x" onclick="multiplicar()">
+    <input type="button" id="/" class="botao" value="/" onclick="dividir()">
+    
+    <h1>
+        <strong>RESULTADO:</strong>
+    </h1>
+    <h2>
+        <div id="restxt"></div> 
+    </h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
